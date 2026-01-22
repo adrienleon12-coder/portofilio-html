@@ -1,0 +1,119 @@
+<input type="text"/><br/>
+<input type="password"/><br/>
+<input type="checkbox"/><br/>
+<input type="radio"/><br/>
+<input type="submit" value="Envoyer"/><br/>
+<input type="reset" value="Annuler"/><br/>
+<input type="file"/><br/>
+<input type="hidden"/>
+<br/>
+<textarea rows="4" cols="50">Texte par défaut</textarea><br/>
+<select>
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+</select>
+<br/>
+<button type="button">Cliquez-moi</button>
+<br/>
+<label for="input1">Label pour input 1:</label>
+<input type="text" id="input1"/><br/>
+<label>
+    <input type="checkbox"/> Accepter les termes et conditions
+</label>
+<br/>
+<fieldset>
+    <legend>Informations personnelles</legend>
+    <label for="name">Nom:</label>
+    <input type="text" id="name"/><br/>
+    <label for="email">Email:</label>
+    <input type="email" id="email"/><br/>
+</fieldset>
+<br/>
+<datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Safari">
+    <option value="Edge">
+    <option value="Opera">
+</datalist>
+<input list="browsers" name="browser" id="browser"/>
+<br/>
+<progress value="70" max="100"></progress>
+<br/>
+<meter value="0.6">60%</meter>
+<br/>
+<output name="result" for="input1 input2">Résultat</output>
+<br/>
+<fieldset disabled>
+    <label for="disabledInput">Champ désactivé:</label>
+    <input type="text" id="disabledInput" value="Je suis désactivé"/>
+</fieldset>
+<br/>
+<legend>Formulaire d'inscription</legend>
+<form action="/submit" method="post">
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username"/><br/>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password"/><br/>
+    <input type="submit" value="S'inscrire"/>
+</form>
+<br/>
+<label for="quantity">Quantité (entre 1 et 10):</label>
+<input type="number" id="quantity" name="quantity" min="1" max="10"/>
+<br/>
+<label for="birthday">Date de naissance:</label>
+<input type="date" id="birthday" name="birthday"/>
+<br/>
+<label for="appt">Choisissez une heure pour votre rendez-vous:</label>
+<input type="time" id="appt" name="appt"/>
+<br/>
+<label for="color">Choisissez une couleur:</label>
+<input type="color" id="color" name="color" value="#ff0000"/>
+<br/>
+<label for="range">Choisissez une valeur (0-100):</label>
+<input type="range" id="range" name="range" min="0" max="
+100"/>
+<br/>
+<label for="tel">Numéro de téléphone:</label>
+<input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"/>
+<br/>
+<label for="url">Votre site web:</label>
+<input type="url" id="url" name="url" placeholder="https://example.com"/>
+<br/>
+<label for="search">Recherche:</label>
+<input type="search" id="search" name="search" placeholder="Rechercher..."/>
+<br/>
+<label for="emailInput">Email:</label>
+<input type="email" id="emailInput" name="emailInput" placeholder="exemple
+@domaine.com"/>
+<br/><label for="passwordInput">Mot de passe:</label>
+<input type="password" id="passwordInput" name="passwordInput" placeholder="Entrez votre mot de passe"/>
+<br/><label for="textareaInput">Votre message:</label><br/>
+<textarea id="textareaInput" name="textareaInput" rows="4" cols="50" placeholder="Écrivez votre message ici..."></textarea>
+<br/>
+<label for="selectInput">Choisissez une option:</label>
+<select id="selectInput" name="selectInput">
+    <option value="optionA">Option A</option>
+    <option value="optionB">Option B</option>
+    <option value="optionC">Option C</option>
+</select>
+<br/>
+<button type="button" onclick="alert('Bouton cliqué!')">Cliquez-moi
+</button>
+<br/><label for="fileInput">Télécharger un fichier:</label>
+<input type="file" id="fileInput" name="fileInput"/>
+<br/><label for="hiddenInput">Champ caché:</label>
+<input type="hidden" id="hiddenInput" name="hiddenInput" value="valeurCachée"/>
+<br/><label for="checkboxInput">Accepter les conditions:</label>
+<input type="checkbox" id="checkboxInput" name="checkboxInput"/>
+<br/><label for="radioInput1">Option 1:</label>
+<input type="radio" id="radioInput1" name="radioGroup" value="option1"/>
+<label for="radioInput2">Option 2:</label>
+<input type="radio" id="radioInput2" name="radioGroup" value="option2"/>
+<br/>
+<label for="submitInput">Envoyer le formulaire:</label>
+<input type="submit" id="submitInput" value="Envoyer"/>
+<br/>
+<label for="resetInput">Réinitialiser le formulaire:</label>
+<input type="reset" id="resetInput" value="Réinitialiser"/>
