@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Le Basket — Petit site</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Le Basketball</h1>
+      <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#histoire">Histoire</a>
+        <a href="#regles">Règles</a>
+        <a href="#joueurs">Joueurs</a>
+        <a href="#nba">NBA</a>
+        <a href="#ffbb">FFBB</a>
+        <a href="#eurobasket">EuroBasket</a>
+        <a href="#euroligue">Euroligue</a>
+        <a href="#actu">Actu</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="accueil" class="hero">
+        <h2>Bienvenue sur le site dédié au basket</h2>
+        <p>Découvrir l'histoire, les règles et les grands joueurs.</p>
+      </section>
+
+      <section id="histoire" class="card">
+        <h3>Histoire</h3>
+        <p>Le basketball a été inventé en 1891 par James Naismith. Sport rapide et collectif, il a conquis le monde.</p>
+      </section>
+
+      <section id="regles" class="card">
+        <h3>Règles (résumé)</h3>
+        <ul>
+          <li>Deux équipes de cinq joueurs.</li>
+          <li>But : marquer des points en lançant le ballon dans le panier.</li>
+          <li>Temps de match et fautes : plusieurs variantes (NBA, FIBA, etc.).</li>
+        </ul>
+      </section>
+
+      <section id="joueurs" class="card">
+        <h3>Grands joueurs</h3>
+        <p>Exemples : Michael Jordan, LeBron James, Kobe Bryant.</p>
+        <div class="gallery" aria-label="Galerie de joueurs célèbres">
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg" alt="Michael Jordan" loading="lazy">
+            <figcaption>Michael Jordan — <a href="https://en.wikipedia.org/wiki/Michael_Jordan" target="_blank" rel="noopener">source</a></figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/500px-LeBron_James_%2851959977144%29%28cropped2%29.jpg" alt="LeBron James" loading="lazy">
+            <figcaption>LeBron James — <a href="https://en.wikipedia.org/wiki/LeBron_James" target="_blank" rel="noopener">source</a></figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Kobe_Bryant_Dec_2014.jpg/500px-Kobe_Bryant_Dec_2014.jpg" alt="Kobe Bryant" loading="lazy">
+            <figcaption>Kobe Bryant — <a href="https://en.wikipedia.org/wiki/Kobe_Bryant" target="_blank" rel="noopener">source</a></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="nba" class="card">
+        <h3>NBA — Historique des vainqueurs</h3>
+        <table class="nba-table">
+          <thead>
+            <tr>
+              <th>Année</th>
+              <th>Champion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>2024</td><td>Boston Celtics</td></tr>
+            <tr><td>2023</td><td>Denver Nuggets</td></tr>
+            <tr><td>2022</td><td>Golden State Warriors</td></tr>
+            <tr><td>2021</td><td>Milwaukee Bucks</td></tr>
+            <tr><td>2020</td><td>Los Angeles Lakers</td></tr>
+            <tr><td>2019</td><td>Toronto Raptors</td></tr>
+            <tr><td>2018</td><td>Golden State Warriors</td></tr>
+            <tr><td>2017</td><td>Golden State Warriors</td></tr>
+            <tr><td>2016</td><td>Cleveland Cavaliers</td></tr>
+            <tr><td>2015</td><td>Golden State Warriors</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="ffbb" class="card">
+        <h3>FFBB — Fédération Française de Basketball</h3>
+        
+        <h4>Réglement précis (LNB — Ligue Nationale de Basketball)</h4>
+        <ul>
+          <li><strong>Durée d'un match :</strong> 4 quarts de 10 minutes (FIBA) ou 12 minutes (NBA)</li>
+          <li><strong>Équipes :</strong> 5 joueurs sur le terrain, 12 sur la feuille de match</li>
+          <li><strong>Fautes personnelles :</strong> 5 fautes = élimination du joueur</li>
+          <li><strong>Fautes techniques :</strong> Penalisées par 2 lancers francs + possession</li>
+          <li><strong>Zone de recul :</strong> 6,25 m (FIBA) / 7,24 m (NBA)</li>
+          <li><strong>Temps d'attaque :</strong> 24 secondes pour tirer (FIBA LNB)</li>
+          <li><strong>Panier réussi :</strong> 2 points (distance normale) ou 3 points (loin de la ligne)</li>
+          <li><strong>Lancer franc :</strong> 1 point</li>
+        </ul>
+
+        <h4>Grands joueurs de l'Équipe de France</h4>
+        <div class="gallery" aria-label="Galerie des joueurs français">
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Nic_Batum_-_51848406711_%28cropped%29.jpg/500px-Nic_Batum_-_51848406711_%28cropped%29.jpg" alt="Nicolas Batum" loading="lazy">
+            <figcaption>Nicolas Batum — <a href="https://en.wikipedia.org/wiki/Nicolas_Batum" target="_blank" rel="noopener">source</a></figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Rudy_Gobert.jpg/500px-Rudy_Gobert.jpg" alt="Rudy Gobert" loading="lazy">
+            <figcaption>Rudy Gobert — <a href="https://en.wikipedia.org/wiki/Rudy_Gobert" target="_blank" rel="noopener">source</a></figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Evan_Fournier_%28cropped%29.jpg/500px-Evan_Fournier_%28cropped%29.jpg" alt="Evan Fournier" loading="lazy">
+            <figcaption>Evan Fournier — <a href="https://en.wikipedia.org/wiki/Evan_Fournier" target="_blank" rel="noopener">source</a></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="eurobasket" class="card">
+        <h3>EuroBasket — Historique des champions</h3>
+        <p>L'EuroBasket est le championnats d'Europe de basketball, organisé tous les deux ans.</p>
+        <table class="eurobasket-table">
+          <thead>
+            <tr>
+              <th>Année</th>
+              <th>Champion</th>
+              <th>Année</th>
+              <th>Champion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>2024</td><td>Espagne</td><td>2003</td><td>Lituanie</td></tr>
+            <tr><td>2022</td><td>Espagne</td><td>2001</td><td>France</td></tr>
+            <tr><td>2019</td><td>Espagne</td><td>1999</td><td>Italie</td></tr>
+            <tr><td>2017</td><td>Turquie</td><td>1997</td><td>Allemagne</td></tr>
+            <tr><td>2015</td><td>Espagne</td><td>1995</td><td>Allemagne</td></tr>
+            <tr><td>2013</td><td>France</td><td>1993</td><td>Allemagne</td></tr>
+            <tr><td>2011</td><td>Espagne</td><td>1991</td><td>URSS</td></tr>
+            <tr><td>2009</td><td>Espagne</td><td>1989</td><td>URSS</td></tr>
+            <tr><td>2007</td><td>URSS</td><td>1987</td><td>URSS</td></tr>
+            <tr><td>2005</td><td>Grèce</td><td>1985</td><td>URSS</td></tr>
+            <tr><td>2004</td><td>France</td><td>1983</td><td>URSS</td></tr>
+            <tr><td>2002</td><td>Slovaquie</td><td>1981</td><td>URSS</td></tr>
+            <tr><td>2000</td><td>Yougoslavie</td><td>1979</td><td>URSS</td></tr>
+            <tr><td>1998</td><td>Allemagne</td><td>1977</td><td>Russie (URSS)</td></tr>
+            <tr><td>1996</td><td>Espagne</td><td>1975</td><td>Russie (URSS)</td></tr>
+            <tr><td>1994</td><td>Lituanie</td><td>1973</td><td>Russie (URSS)</td></tr>
+            <tr><td>1992</td><td>Communauté d'États Indépendants</td><td>1971</td><td>Russie (URSS)</td></tr>
+            <tr><td>1990</td><td>Yougoslavie</td><td>1969</td><td>Yougoslavie</td></tr>
+            <tr><td>1988</td><td>Yougoslavie</td><td>1967</td><td>Yougoslavie</td></tr>
+            <tr><td>1986</td><td>Yougoslavie</td><td>1965</td><td>URSS</td></tr>
+            <tr><td>1984</td><td>Espagne</td><td>1963</td><td>France</td></tr>
+            <tr><td>1982</td><td>URSS</td><td>1961</td><td>Bulgarie</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="euroligue" class="card">
+        <h3>Euroligue — La plus grande compétition de basketball européen</h3>
+        
+        <h4>Introduction et définition</h4>
+        <p>L'Euroligue est la compétition continentale de basketball professionnel la plus prestigieuse et la plus ancienne d'Europe. Elle représente l'élite du basketball européen, réunissant les meilleures équipes des plus grands championnats nationaux du continent. L'Euroligue n'est pas seulement une compétition sportive, c'est une institution qui a marqué l'histoire du basketball pendant plus de soixante ans. Elle incarne l'excellence, la passion et la diversité du basketball européen, avec des équipes issues d'une multitude de pays, chacune apportant sa propre culture et son style de jeu unique.</p>
+
+        <h4>Origines et histoire fondatrice</h4>
+        <p>L'Euroligue a été créée en 1957 sous le nom de "Coupe d'Europe des clubs champions" ou "CECC". À cette époque, le basketball européen était encore en phase de développement, et peu de gens auraient pu imaginer que cette compétition deviendrait un jour l'une des plus grandes ligues profionnelles du monde. Les premières éditions de la compétition ont réuni un nombre relativement limité d'équipes, provenant principalement des grandes nations du basketball européen comme la Yougoslavie, l'URSS, la Tchécoslovaquie, et la France. Ces pionniers ont posé les fondations d'une tradition qui perdure jusqu'à aujourd'hui. Les premiers matchs de la Coupe d'Europe étaient des événements majeurs, attirant des milliers de spectateurs et générant une passion intense parmi les fans de basketball.</p>
+
+        <p>La compétition a d'abord été dominée par les équipes soviétiques et yougoslaves, qui ont remporté les premières éditions. Ces équipes ont établi un standard de jeu très élevé, avec une organisation défensive impressionnante et une capacité à jouer un basketball collectif d'une grande sophistication. Les années 1960 et 1970 ont vu l'émergence de dynasties, avec certaines équipes remportant plusieurs titres consécutifs. Le CSKA Moscou, l'Étoile Rouge de Belgrade, et d'autres clubs ont développé une rivalité intense qui a captivé les fans à travers tout le continent.</p>
+
+        <p>Dans les années 1980 et 1990, l'Euroligue a connu une évolution importante. La chute du rideau de fer et l'effondrement de l'Union soviétique ont permis à de nouvelles nations de participer activement à la compétition. Des équipes des Balkans, de la Méditerranée, et d'autres régions ont pu s'affirmer sur la scène européenne. Cette période a également vu l'arrivée de joueurs américains dans le basketball européen, apportant un nouvel niveau de compétitivité et d'exposition médiatique.</p>
+
+        <h4>Évolution du format et des règles</h4>
+        <p>Au fil des décennies, le format de l'Euroligue a connu plusieurs transformations majeures pour s'adapter aux besoins du basketball moderne et pour améliorer l'attrait de la compétition. Les premières éditions utilisaient un système à plusieurs tours avec des matchs éliminatoires, tandis que les éditions plus récentes ont adopté un format plus complexe avec une phase de groupes suivie d'une phase finale.</p>
+
+        <p>Le format actuel de l'Euroligue, qui s'est établi au début des années 2000, comprend deux phases principales. La première phase est appelée "Regular Season" ou saison régulière, durant laquelle dix-huit équipes sont divisées en deux groupes de neuf, jouant chacune un nombre important de matchs. Cette phase s'étend généralement d'octobre à avril, avec des matchs joués deux fois par semaine en moyenne. Après la saison régulière, les huit meilleures équipes se qualifient pour les play-offs, où elles s'affrontent dans un format éliminatoire à quatre tours : quarts de finale, demi-finales, et finale.</p>
+
+        <p>Le changement du format a été motivé par le désir d'augmenter le nombre de matchs à enjeu, ce qui permet aux fans de suivre plus régulièrement leurs équipes préférées et aux équipes de générer plus de revenus. Cette modification a également rendu la compétition plus accessible aux téléspectateurs, car un calendrier bien étalé permet une meilleure couverture médiatique.</p>
+
+        <h4>Les équipes participants et les grandes dynasties</h4>
+        <p>L'Euroligue réunit les meilleures équipes d'Europe, chacune représentant le sommet de son championnat national respectif. Parmi les équipes les plus prestigieuses et les plus titrées, on retrouve le Real Madrid, qui est l'équipe la plus couronnée de succès dans l'histoire de la compétition avec un nombre record de titres. Le Real Madrid a établi une véritable dynastie, remportant ses premiers titres dans les années 1950 et 1960, puis retrouvant le succès à plusieurs reprises dans les années 1990, 2000, et 2010.</p>
+
+        <p>D'autres équipes ont également marqué l'histoire de l'Euroligue. Le CSKA Moscou, avec ses racines dans le basketball soviétique, a remporté plusieurs titres, notamment dans les années 1960 et 1970. Aek Athènes, une équipe grecque, a connu une période d'or dans les années 1960 et 1970, remportant plusieurs championnats. L'Étoile Rouge de Belgrade, issue de la Yougoslavie puis de la Serbie, a également marqué l'histoire avec plusieurs titres.</p>
+
+        <p>Au fil des années, de nouvelles équipes se sont affirées comme des puissances de l'Euroligue. Le FC Barcelone, l'équipe espagnole, a remporté plusieurs titres, particulièrement dans les années 2000 et 2010, établissant une rivalité intense avec le Real Madrid. L'Olympiacos du Pirée, en Grèce, a également atteint plusieurs finales. Des équipes comme Fenerbahçe en Turquie, l'Armani Milan en Italie, et Maccabi Tel-Aviv en Israël ont toutes remporté le titre et sont devenues des compétiteurs réguliers en play-offs.</p>
+
+        <h4>Les joueurs légendaires et les icônes</h4>
+        <p>L'Euroligue a accueilli certains des plus grands joueurs de basketball de tous les temps. Le basketballer russe Sergei Belov, qui a joué dans les années 1970, est considéré par beaucoup comme l'un des plus grands joueurs européens de tous les temps. Belov combinait une taille imposante, une agilité remarquable, et une capacité à scorer de partout sur le terrain. Il a remporté plusieurs titres avec le CSKA Moscou et a marqué une génération de fans.</p>
+
+        <p>Drazen Petrovic, le légendaire arrière croate, a transformé le basketball européen dans les années 1980 et 1990. Réputé pour son tir à trois points exceptionnel et sa passion pour le jeu, Petrovic a remporté le titre de l'Euroligue et a ensuite marqué son empreinte dans la NBA. Sa mort tragique en 1993 a choqué le monde du basketball, mais son héritage perdure.</p>
+
+        <p>Tony Parker, le meneur de jeu français qui a connu une carrière brillante à la fois en Euroligue et en NBA, a marqué plusieurs générations de fans avec son jeu rapide et son leadership. Parker a remporté plusieurs titres en Europe avant de devenir une star en NBA.</p>
+
+        <p>D'autres joueurs européens de renom ont également participé à l'Euroligue, notamment Dirk Nowitzki avant sa célébrité en NBA, Pau Gasol, Ricky Rubio, et bien d'autres. Ces joueurs ont non seulement remporté des titres, mais ont également établi un standard de jeu élevé qui a attiré l'attention des recruteurs de la NBA.</p>
+
+        <h4>L'impact des joueurs américains</h4>
+        <p>Depuis les années 1990, les joueurs américains ont joué un rôle croissant dans l'Euroligue. Initialement, les équipes européennes recrutaient des joueurs américains moins connus ou en fin de carrière. Cependant, avec le temps, le niveau des matchs en Euroligue a augmenté, et des joueurs américains de plus haut niveau ont commencé à rejoindre la compétition. Des joueurs comme Charles Barkley, bien que n'ayant pas joué en Euroligue durant sa prime, ont démontré que les meilleures équipes européennes pouvaient rivaliser avec les équipes de NBA.</p>
+
+        <p>Le recrutement de joueurs américains par les équipes d'Euroligue a permis à la compétition de s'affirmer comme une véritable alternative à la NBA pour les joueurs cherchant une nouvelle opportunité ou souhaitant continuer leur carrière. Certains joueurs américains ont développé une affinité particulière pour certaines villes européennes et ont choisi d'y rester plus longtemps que prévu, contribuant ainsi au développement du basketball européen.</p>
+
+        <h4>Structure actuelle et organisation</h4>
+        <p>L'Euroligue est gérée par l'Euroleague Basketball Company, une entreprise créée en 2000 par les clubs les plus importants de la compétition. Cette structure de gouvernance a permis une meilleure organisation, une meilleure commercialisation, et une augmentation significative des revenus. L'Euroleague Basketball Company est responsable de l'organisation de tous les aspects de la compétition, depuis la planification des calendriers jusqu'à la transmission des droits télévisés.</p>
+
+        <p>L'Euroligue comprend actuellement dix-huit équipes provenant de plusieurs pays européens. Ces équipes sont sélectionnées sur la base de critères stricts, y compris leurs performances précédentes en Euroligue, leurs résultats dans les championnats nationaux, leurs installations, et leur stabilité financière. Les équipes participantes sont des clubs professionnels établis, avec une base de fans importante, une histoire riche, et une capacité à attirer les meilleurs joueurs.</p>
+
+        <p>La saison régulière de l'Euroligue s'étend généralement d'octobre à avril, avec chaque équipe jouant trente-quatre matchs au total (dix-sept à domicile et dix-sept à l'extérieur). Durant cette période, les équipes doivent maintenir une performance consistante, gérer les blessures, et naviguer dans les défis logistiques du voyage régulier à travers l'Europe.</p>
+
+        <h4>Championnats remportés et palmarès historique</h4>
+        <p>Le Real Madrid est l'équipe la plus titrée de l'Euroligue, avec un nombre impressionnant de championnats remportés depuis les années 1950. Le club espagnol a établi une tradition de excellence qui a perduré à travers les générations, avec des périodes de domination particulièrement marquantes dans les années 1950-1960, 1990-2000, et surtout depuis 2014, où le Real Madrid a remporté plusieurs championnats consécutifs.</p>
+
+        <p>Le CSKA Moscou, représentant le basketball soviétique puis russe, a également remporté plusieurs titres, en particulier dans les années 1960 et 1970. Les équipes yougoslaves, dont l'Étoile Rouge de Belgrade, ont marqué l'histoire de la compétition. D'autres équipes comme le FC Barcelone, Fenerbahçe, Olympiacos, et Armani Milan ont tous remporté des titres à différentes périodes.</p>
+
+        <p>La diversité des vainqueurs au fil des ans reflète l'évolution du basketball européen, avec des périodes de domination russe et yougoslave, suivies par une émergence des équipes espagnoles, grecques, et turcques dans les décennies récentes.</p>
+
+        <h4>Impact économique et culturel</h4>
+        <p>L'Euroligue a un impact économique considérable en Europe. Les clubs participants génèrent des revenus importants provenant des billets d'entrée, des droits de diffusion télévisée, des contrats de sponsoring, et de la vente de merchandise. Ces revenus permettent aux clubs d'investir dans leurs installations, d'attirer les meilleurs joueurs, et de maintenir une structure organisationnelle de haut niveau.</p>
+
+        <p>D'un point de vue culturel, l'Euroligue joue un rôle important dans la promotion du basketball à travers l'Europe. Les matchs d'Euroligue attirent régulièrement des milliers de spectateurs dans les arènes, créant une atmosphère électrique et passionnée. Les fans de basketball de chaque pays soutiennent leur équipe avec une passion intense, créant des rivalités régionales et continentales mémorables.</p>
+
+        <p>L'Euroligue a également joué un rôle important dans le développement des joueurs européens. De nombreux joueurs qui ont remporté la gloire en NBA ont d'abord développé leurs compétences en Euroligue, où ils ont affronté une compétition de haut niveau et ont eu l'opportunité de briller sur une grande scène internationale.</p>
+
+        <h4>Rivalités principales</h4>
+        <p>L'une des rivalités les plus intenses de l'Euroligue est celle entre le Real Madrid et le FC Barcelone. Ces deux équipes espagnoles sont des voisins et des concurrents directs dans leur championnat national, et cette rivalité s'étend naturellement à l'Euroligue. Les matchs entre le Real Madrid et le Barcelone sont toujours des événements majeurs, attirant une couverture médiatique importante et enthousiasment les fans de basketball de toute la péninsule ibérique.</p>
+
+        <p>Une autre rivalité classique est celle entre les équipes turques et grecques. Fenerbahçe et Besiktas, deux grands clubs turcs, ont souvent affronté des équipes grecques comme Olympiacos et Panathinaikos. Ces matchs reflètent les tensions géopolitiques plus larges entre la Turquie et la Grèce, mais également le désir de chaque équipe de s'affirmer comme la plus grande puissance du basketball méditerranéen.</p>
+
+        <p>Des rivalités régionales existent également entre les équipes russes, les équipes balkaniques, et les équipes d'Europe occidentale. Ces rivalités ajoutent une dimension supplémentaire à la compétition, transformant chaque match en plus qu'un simple événement sportif, mais plutôt en une affirmation de fierté régionale et nationale.</p>
+
+        <h4>Les grandes finales et moments mémorables</h4>
+        <p>L'Euroligue a connu plusieurs finales mémorables qui resteront à jamais gravées dans l'histoire du basketball. La finale de 1986 entre l'Étoile Rouge de Belgrade et le Maccabi Tel-Aviv a été une bataille épique, avec les deux équipes démontrant un niveau de jeu exceptionnellement élevé. L'Étoile Rouge a finalement prévalu, remportant un titre bien mérité.</p>
+
+        <p>La final de 2006 entre le Real Madrid et le Maccabi Tel-Aviv a également marqué les esprits, avec le Real Madrid remportant une victoire impressionnante pour remporter son premier titre en plusieurs années. Ce triomphe a marqué le début d'une nouvelle ère de domination pour le Real Madrid, qui a continué à remporter des titres régulièrement dans les années suivantes.</p>
+
+        <p>Ces moments mémorables ne sont pas seulement des victoires pour les équipes, mais des événements qui définissent les carrières des joueurs et les histoires des franchises. Les finals de l'Euroligue créent des héros, établissent des légendaires, et fournissent des souvenirs que les fans chérissent pendant des décennies.</p>
+
+        <h4>Infrastructure et installations</h4>
+        <p>Les équipes d'Euroligue jouent dans certaines des plus belles arènes d'Europe. Des installations modernes avec une capacité de plusieurs milliers de spectateurs accueillent les matchs d'Euroligue. Des arènes comme le Barclays Center à Londres, l'O2 Arena, ou les arènes traditionnelles d'Espagne, de Grèce, et de Turquie offrent des expériences de basketball de classe mondiale.</p>
+
+        <p>Ces installations ne sont pas seulement utilisées pour les matchs d'Euroligue, mais servent également de maisons pour les équipes nationales lors des compétitions internationales. Elles représentent un investissement massif des villes et des clubs pour promouvoir le basketball et attirer les événements internationaux majeurs.</p>
+
+        <h4>Système de développement et académies</h4>
+        <p>Les clubs d'Euroligue jouent un rôle crucial dans le développement du basketball européen. Beaucoup d'entre eux opèrent des académies de basketball où les jeunes talents peuvent développer leurs compétences sous la tutelle de coachs expérimentés. Ces académies sont des pépinières de talents, produisant régulièrement des joueurs qui finissent par jouer pour les équipes seniors d'Euroligue.</p>
+
+        <p>Le système de développement en Europe, tel que pratiqué par les clubs d'Euroligue, offre une approche différente de celle suivie en Amérique du Nord. Plutôt que de dépendre entièrement des colleges comme nurseries de talent, l'Europe a développé un système de clubs où les jeunes joueurs peuvent progresser graduellement à travers différents niveaux compétitifs au sein d'une même organisation.</p>
+
+        <h4>Présence médiatique et couverture télévisée</h4>
+        <p>La couverture télévisée de l'Euroligue a considérablement augmenté au cours des deux dernières décennies. Avec la création de l'Euroleague Basketball Company, la compétition a bénéficié d'une meilleure commercialisation et d'une plus grande exposition médiatique. Les droits de diffusion sont vendus à des réseaux de télévision dans toute l'Europe et au-delà.</p>
+
+        <p>L'avènage des plateformes de streaming a également transformé la façon dont les fans suivent l'Euroligue. Des services de streaming dédiés permettent aux fans de regarder les matchs en direct ou en différé, éliminant les barrières géographiques et horaires. Cette exposition accrue a permis à l'Euroligue de développer une base de fans globale et de maintenir sa position comme la compétition professionnelle de basketball la plus importante en Europe.</p>
+
+        <h4>Perspectives futures et développement continu</h4>
+        <p>L'Euroligue continue à évoluer pour rester compétitive et attractive. Les plans pour l'expansion, les améliorations technologiques, et les innovations dans le format de compétition sont constamment considérés. L'objectif est de maintenir l'Euroligue comme une destination d'élite pour les joueurs et une source de divertissement de première classe pour les fans.</p>
+
+        <p>L'une des tendances futures pourrait être une plus grande intégration des équipes d'Euroligue avec les équipes de la seconde division européenne, créant une véritable pyramide compétitive. Cela pourrait améliorer la qualité globale du basketball européen et créer plus d'opportunités pour les jeunes talents de progresser.</p>
+
+        <p>L'Euroligue reste un symbole de l'excellence du basketball européen et une source de fierté pour ses fans, ses joueurs, et ses villes. Son histoire riche, ses rivalités intenses, et son engagement envers le développement du jeu assurent que l'Euroligue restera la compétition de basketball professionnel la plus importante d'Europe pour les années à venir.</p>
+
+        <h4>Conclusion</h4>
+        <p>L'Euroligue représente bien plus qu'une simple compétition sportive. C'est une célébration du basketball européen, une plateforme pour l'excellence athletique, et une communauté de fans passionnés à travers le continent. Depuis ses débuts modestes en 1957 jusqu'à sa position actuelle comme l'une des plus grandes ligues professionnelles du basketball, l'Euroligue a parcouru un chemin extraordinaire. Elle a produit des champions, des héros, et des souvenirs inoubliables qui resteront à jamais gravés dans le cœur des fans de basketball. Que ce soit à travers les exploits de ses plus grands joueurs, les victoires dramatiques en play-offs, ou simplement l'atmosphère électrique des arènes durant les nuits de match, l'Euroligue continue à captiver et à inspirer les amateurs de basketball du monde entier, et elle restera sans doute l'une des plus grandes compétitions sportives d'Europe pour les générations à venir.</p>
+      </section>
+
+      <section id="actu" class="card">
+        <h3>Actualités</h3>
+        <ul class="actu-list">
+          <li><strong>NBA Finals 2025 :</strong> Une saison captivante s'annonce avec de nouveaux talents.</li>
+          <li><strong>Ligue FIBA :</strong> Les sélections se préparent pour les prochains championnats.</li>
+          <li><strong>Records historiques :</strong> Nouvelle génération de joueurs record-breakers.</li>
+          <li><strong>Développement jeunesse :</strong> Les académies renforcent leur programme de formation.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="card">
+        <h3>Contact</h3>
+        <p>Envoyez vos idées ou corrections par e‑mail (exemple@domaine.tld).</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Petit site sur le basket </p>
+      <p><a href="index.html">Retour à l'accueil du workspace</a></p>
+    </footer>
+  </body>
+</html>

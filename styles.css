@@ -1,0 +1,34 @@
+/* Styles simples pour le petit site sur le basket */
+:root{
+  --bg:#f4f6f8;
+  --card:#ffffff;
+  --accent:#ff6b35;
+  --text:#222;
+}
+*{box-sizing:border-box}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.45}
+.site-header{background:var(--accent);color:#fff;padding:16px 18px;display:flex;align-items:center;justify-content:space-between}
+.site-header h1{margin:0;font-size:1.25rem}
+.site-header nav a{color:rgba(255,255,255,0.95);margin-left:12px;text-decoration:none}
+.hero{padding:28px 18px;text-align:center}
+.card{background:var(--card);margin:12px auto;padding:16px;border-radius:8px;max-width:900px;box-shadow:0 2px 6px rgba(0,0,0,0.06)}
+.site-footer{text-align:center;padding:16px;color:#666;font-size:0.9rem}
+@media(min-width:700px){
+  .site-header h1{font-size:1.5rem}
+  .hero{padding:48px}
+}
+
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;max-width:900px;margin:12px auto}
+.gallery img{width:100%;height:220px;object-fit:cover;border-radius:6px;display:block}
+.gallery figure{margin:0}
+.gallery figcaption{font-size:0.85rem;color:#555;margin-top:6px;text-align:center}
+
+.nba-table{width:100%;border-collapse:collapse;margin-top:12px}
+.nba-table th{background:var(--accent);color:#fff;padding:10px;text-align:left;font-weight:bold}
+.nba-table td{padding:10px;border-bottom:1px solid #eee}
+.nba-table tr:hover{background:#f9f9f9}
+
+.eurobasket-table{width:100%;border-collapse:collapse;margin-top:12px;font-size:0.95rem}
+.eurobasket-table th{background:var(--accent);color:#fff;padding:10px;text-align:left;font-weight:bold}
+.eurobasket-table td{padding:8px;border-bottom:1px solid #eee}
+.eurobasket-table tr:hover{background:#f9f9f9}
